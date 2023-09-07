@@ -5,7 +5,17 @@
     • Import this component into App.js and display it.
 */
 
+import React from 'react'
 
+function HellowWorld() {
+  return (
+    <div>
+       <h1>Hello, World!</h1> 
+    </div>
+  )
+}
+
+export default HellowWorld
 
 
 
