@@ -1,5 +1,5 @@
 import './App.css'
-import BackgroundColorChanger from './assets/components/BackgroundColorChanger'
+import ColorChanger from './assets/components/ColorChanger'
 import HellowWorld from './assets/components/HelloWorld'
 
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <HellowWorld />
-      <BackgroundColorChanger />
+      <ColorChanger />
     </>
   )
 }
