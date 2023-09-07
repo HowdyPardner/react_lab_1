@@ -7,7 +7,7 @@
 */
 import { useState } from 'react'
 
-function BackgroundColorChanger() {
+function ColorChanger() {
     const [backgroundColor, setBackgroundColor] = useState('aqua');
 
     // create a function that will return a random color
@@ -32,4 +32,4 @@ function BackgroundColorChanger() {
   );
 }
 
-export default BackgroundColorChanger
+export default ColorChanger
